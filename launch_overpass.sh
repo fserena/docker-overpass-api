@@ -26,8 +26,8 @@ $BINDIR/dispatcher --areas --db-dir=$DBDIR &
 
 
 sleep 5
-echo "Will run rules loop"
-$BINDIR/rules_loop.sh $DBDIR &
+#echo "Will run rules loop"
+#$BINDIR/rules_loop.sh $DBDIR &
 
 
 
